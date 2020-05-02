@@ -3,15 +3,15 @@ Createing DB and Collection with Mongodb using commands
 
 MongoDB
 -------
-> mongod
-> mongo
-> use testdb;
-> db.createCollection("nodejs");
-> db.nodejs.insert({sno:1,topic:"Http Server"});
+1.mongod
+2.mongo
+3.use testdb;
+4.db.createCollection("nodejs");
+5.db.nodejs.insert({sno:1,topic:"Http Server"});
         ----
         ----
         ----
-> db.nodejs.find().pretty();        
+6.db.nodejs.find().pretty();        
 
 ********************************************
 host      :  localhost
