@@ -3,6 +3,7 @@ Createing DB and Collection with Mongodb using commands
 
 MongoDB
 -------
+
 1.mongod
 2.mongo
 3.use testdb;
@@ -24,6 +25,7 @@ collection:  nodejs
 download the node modules using npm
 
     => express
+    ==> mongoose
     => mongodb@2.2.32
     => body-parser
     => cors
